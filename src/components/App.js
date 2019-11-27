@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './styles/App.css';
+import NavBar from '../components/layout/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
+ 
   render() {
     return (
       <div className="App">
-        Hello!!!
+        <NavBar />
       </div>
     );
   }
