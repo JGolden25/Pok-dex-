@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import axios from 'axios';
 import PokemonCard from './PokemonCard';
 
@@ -28,7 +28,7 @@ async componentDidMount(){
            ))}
         </div>
         ) : (
-            <h1>Loading Pokemon</h1>
+            <h1>Loading Pokemon...</h1>
         )}
         </React.Fragment>
         );
